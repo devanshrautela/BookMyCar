@@ -48,7 +48,7 @@ public class Login extends HttpServlet {
         
 	    String n=request.getParameter("username");  
 	    String p=request.getParameter("userpass");  
-	    if (n.equals("ADMIN") && p.equals("TCS@123")) { // Replace with secure admin validation
+	    if (n.equals("ADMIN") && p.equals("Admin@123")) { // Replace with secure admin validation
 
 	        HttpSession session = request.getSession();
 
